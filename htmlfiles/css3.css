@@ -13,6 +13,7 @@
 	position:absolute;
 	left:120px;
 	animation:animate_p 3s;
+	-moz-backface-visibility:hidden;
 	z-index:1;
 }
 @keyframes animate_div{
@@ -20,4 +21,7 @@
 	to { left:0px }
 }
 @keyframes animate_p{
+	from { left:100% }	
+	75%{ left:100px}
+	to { left:120px; }
 }
