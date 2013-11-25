@@ -1,0 +1,27 @@
+#div1{
+	height:100px;
+	width:100px;
+	background:red;
+	border-radius:100%;
+	animation:animate_div 3s;
+	position:absolute;
+	left:0;
+	z-index:2;
+}
+p{
+	position:absolute;
+	left:120px;
+	animation:animate_p 3s;
+	z-index:1;
+	display:
+}
+@keyframes animate_div{
+	from { left:100% }
+	to { left:0px }
+}
+@keyframes animate_p{
+from{hidden:hidden};
+	0%{hidden:hidden;}
+	50%{left:100px;}
+	100%{left:120px;}
+}
